@@ -39,6 +39,15 @@ To reproduce our training process in main experiments on **MELD**,
 - run ```python MELD.py```
 - run ```bash meld.sh```
 
+## Credits
+This project is expanded upon from a course project at NUS [[Course Page](https://knmnyn.github.io/cs4248-2120/)].
+The code repository is based on following projects:
+- ACL-20, "Dialogue-Based Relation Extraction" [[github](https://github.com/nlpdata/dialogre)]
+- AAAI-21, "GDPNet: Refining Refining Latent Multi-View Graph for Relation Extraction" [[github](https://github.com/XueFuzhao/GDPNet)]
+- EMNLP-21, "Graph Based Network with Contextualized Representations of Turns in Dialogue" [[github](https://github.com/BlackNoodle/TUCORE-GCN)]
+
+Thanks for their amazing work.
+
 ## Reference 
 ```
 @Article{liu2023hierarchical,
