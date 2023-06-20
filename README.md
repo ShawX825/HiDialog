@@ -25,7 +25,7 @@ Our experiments are conducted with following core packages:
 
 To reproduce our training process in main experiments on **DialogRE**, 
 - download [RoBERTa](https://github.com/pytorch/fairseq/tree/main/examples/roberta) and unzip it to ```pre-trained_model/RoBERTa/```.
-- download ```merges.txt``` and ```vocab.json``` from [here](https://huggingface.co/roberta-large/tree/main), put them to ```pre-trained_model/RoBERTa/```
+- download  ```config.json```, ```merges.txt``` and ```vocab.json``` from [here](https://huggingface.co/roberta-large/tree/main), put them to ```pre-trained_model/RoBERTa/```
 - download [DialogRE](https://github.com/nlpdata/dialogre) 
 - copy the *.json files into datasets/DialogRE
 - run ```bash dialogre.sh``` 
@@ -33,7 +33,7 @@ To reproduce our training process in main experiments on **DialogRE**,
 \
 To reproduce our training process in main experiments on **MELD**, 
 - download [RoBERTa](https://github.com/pytorch/fairseq/tree/main/examples/roberta) and unzip it to ```pre-trained_model/RoBERTa/```.
-- download ```merges.txt``` and ```vocab.json``` from [here](https://huggingface.co/roberta-large/tree/main), put them to ```pre-trained_model/RoBERTa/```
+- download ```config.json```, ```merges.txt``` and ```vocab.json``` from [here](https://huggingface.co/roberta-large/tree/main), put them to ```pre-trained_model/RoBERTa/```
 - download [MELD](https://github.com/declare-lab/MELD)
 - copy the *.json files into datasets/MELD 
 - run ```python MELD.py```
